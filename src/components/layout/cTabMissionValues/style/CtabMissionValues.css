@@ -1,0 +1,66 @@
+.custom-swiper-left {
+  position: relative;
+}
+
+.custom-img-content-wrapper {
+  width: 100%;
+}
+
+.custom-img-content-wrapper img {
+  position: static;
+  width: 100%;
+}
+
+.custom-swiper-slide {
+  width: 100% !important;
+  display: flex !important;
+  justify-content: flex-start !important;
+}
+
+.custom-swiper-content {
+  width: 20%;
+  margin-top: -222px;
+  position: relative !important;
+}
+
+.custom-swiper-content button {
+  font-size: 32px;
+  background-color: transparent;
+  border: none;
+}
+
+.custom-swiper-content h3,
+.custom-swiper-content p {
+  word-wrap: break-word;
+}
+
+.team_dropdown.close {
+  position: absolute;
+  animation: closeTeamOpen 0.3s linear;
+  display: none;
+}
+
+@keyframes closeTeamOpen {
+  from {
+    height: 150px;
+  }
+  to {
+    height: 0;
+  }
+}
+
+.team_dropdown.active {
+  position: absolute;
+  display: block;
+  animation: OpenTeamOpen 0.3s linear;
+  word-wrap: break-word;
+}
+
+@keyframes OpenTeamOpen {
+  from {
+    height: 0;
+  }
+  to {
+    height: 150px;
+  }
+}

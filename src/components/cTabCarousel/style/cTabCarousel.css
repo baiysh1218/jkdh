@@ -1,0 +1,54 @@
+.c-tabs-nav .is-active {
+  background-color: transparent;
+}
+.swiper_content_right img {
+  object-position: center;
+  height: 598px;
+  width: 100%;
+  position: absolute;
+  z-index: -1;
+  top: -3px;
+  left: 0;
+  filter: brightness(80%);
+}
+
+.swiper_content_right {
+  width: 60%;
+}
+
+.swiper_left_img_wrapper img {
+  margin-top: 160px;
+}
+
+.swiper_ccontent_left {
+  width: 30%;
+  height: 575px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  gap: 50px;
+}
+
+.swiper_ccontent_left h3 {
+  color: white;
+  font-size: 32px;
+}
+
+#swiper_img_left {
+  top: -240px;
+  left: 0px;
+  width: 450px;
+}
+
+.swiper_content_right img {
+  object-position: center;
+  height: 598px;
+  width: 70%;
+  position: absolute;
+  z-index: -1;
+  top: -3px;
+  left: 428px;
+  filter: brightness(80%);
+}
